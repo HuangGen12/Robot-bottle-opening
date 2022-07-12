@@ -1,0 +1,7 @@
+<launch>
+  
+  <node pkg="bottle_detection" type="rs_node_listener" name="rs_node_listener" output="screen"/>
+
+  <node pkg="bottle_detection" type="pc_handler_node" name="pc_handler_node" output="screen"/>
+
+</launch>

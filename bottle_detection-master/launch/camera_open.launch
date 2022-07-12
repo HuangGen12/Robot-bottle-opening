@@ -1,0 +1,10 @@
+<launch>
+  <!-- Run a crop box filter to clean NaNs -->
+  <include file="$(find realsense2_camera)/launch/rs_camera.launch">
+    <arg name="filters" value="pointcloud"/>
+    <arg name="align_depth" value="true"/>
+  </include>
+
+  <include file="$(find darknet_ros)/launch/yolo_v3.launch"/>
+
+</launch>
