@@ -1,6 +1,7 @@
 # Bottle Detection
 
 This project is a sub-task of vision based bottle opening project.
+Robot Bottle Opening：https://youtu.be/jXw0awTiuHk
 
 ## Getting Started
 
